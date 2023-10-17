@@ -1,0 +1,144 @@
+nav img {
+    position: absolute;
+    left: -10px;
+    top: -50px;
+    z-index: 1;
+    height: 170px;
+    background-image: url(Logotipo\ feira\ de\ ciencias\ 2.png);
+  width: -100px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+    background-color: rgb(71, 65, 65);
+    top: 0px;
+}
+nav h1 {
+        text-align: start;
+    }
+    
+nav h2 {
+    text-align: justify;
+}
+
+.menu-desktop li {
+    list-style: none;
+    display: inline;
+    padding: 100px;
+ 
+}
+
+.menu-desktop p {
+    padding: 30px 40px;
+    text-decoration: none;
+    color: aliceblue;
+    display: inline-block;
+    margin-right: -3px;
+    font-size: 150%;
+    letter-spacing: 0.60;
+}
+.menu-desktop{
+    margin: 0;
+    padding: 0;
+ 
+}
+
+header {
+    color: black;
+}
+div ul li a{
+    color: aliceblue;
+    text-decoration: none;
+    display: inline-block;
+    list-style: none;
+    font-size: 20px;
+}
+.site-img {
+    margin-top: 20px; /* Espaço superior para separar da lista */
+   margin-left: 10px;
+    width: 300px; /* Largura fixa de 300px para as imagens */
+}
+.site-img2{
+    margin-top: 20px; /* Espaço superior para separar da lista */
+  height: 200px;
+ box-shadow: rgb(15, 15, 15 0.15);
+  width: 250px; /* Largura fixa de 300px para as imagens */
+}
+
+body {
+    background-color:rgb(111, 138, 196);
+    text-align: center; /* Alinhe todo o conteúdo ao centro */
+    padding-top: 100px; /* Aumente ou diminua conforme necessário para centralizar verticalmente */
+    font-family: "Times New Roman", Times, serif; /* Defina a fonte para Times New Roman */
+    color: rgb(255, 255, 255); /* Cor do texto para todo o corpo */
+    border: 30px solid rgb(71, 65, 65); /* Adicione uma borda preta com 30px de largura */
+}
+
+/* Estilo para o cabeçalho (header) */
+header {
+    background-color: rgb(255, 255, 255); /* Cor de fundo do cabeçalho */
+    padding: 20px; /* Espaçamento interno do cabeçalho */
+
+}
+
+/* Estilo para o cabeçalho (h1) */
+header h1 {
+    color: rgb(0, 0, 0); /* Cor do texto do cabeçalho */
+    font-size: 30px; /* Tamanho da fonte para o h1 dentro do header */
+    font-weight: bold; /* Deixa o texto em negrito */
+}
+
+/* Estilo para a lista não ordenada (ul) */
+ul {
+    list-style: none; /* Remove os marcadores (pontos) da lista */
+    padding: 0;
+}
+
+/* Estilo para os itens da lista (li) */
+ul li {
+    font-size: 14px; /* Tamanho da fonte para os itens da lista */
+    counter-increment: lista; /* Incrementa o contador da lista */
+    margin-bottom: 5px; /* Espaço entre os itens da lista */
+    text-align: left; /* Alinha o texto à esquerda dentro da lista */
+}
+
+/* Estilo para numerar os itens da lista */
+ul li::before {
+    content: counter(lista) ". "; /* Adiciona o número e um ponto antes de cada item */
+    font-weight: bold; /* Deixa os números em negrito */
+    color: rgb(0, 0, 0); /* Cor dos números */
+}
+
+/* Estilo para o título da lista de IAs */
+.ias-title {
+    font-size: 30px; /* Tamanho da fonte para o título da lista de IAs */
+    text-decoration: underline; /* Adiciona um sublinhado */
+
+    font-weight: bold; /* Deixa o texto em negrito */
+}
+
+/* Estilo para o rodapé (footer) */
+footer {
+    background-color: white; /* Cor de fundo do rodapé */
+    padding: 5px; /* Espaçamento interno menor no rodapé */
+    color: black; /* Cor do texto no rodapé */
+    font-weight: bold; /* Deixa o texto em negrito */
+    font-size: 12px; /* Tamanho da fonte menor para o rodapé */
+}
+
+
+/* Estilo para centralizar a lista */
+.list-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style: none;
+}

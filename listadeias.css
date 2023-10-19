@@ -19,6 +19,7 @@ nav {
     width: 100%;
     background-color: rgb(71, 65, 65);
     top: 0px;
+    
 }
 nav h1 {
         text-align: start;
@@ -74,7 +75,7 @@ div ul li a{
 }
 
 body {
-    background-color:rgb(111, 138, 196);
+    background: blue;
     text-align: center; /* Alinhe todo o conteúdo ao centro */
     padding-top: 100px; /* Aumente ou diminua conforme necessário para centralizar verticalmente */
     font-family: "Times New Roman", Times, serif; /* Defina a fonte para Times New Roman */
@@ -125,14 +126,6 @@ ul li::before {
     font-weight: bold; /* Deixa o texto em negrito */
 }
 
-/* Estilo para o rodapé (footer) */
-footer {
-    background-color: white; /* Cor de fundo do rodapé */
-    padding: 5px; /* Espaçamento interno menor no rodapé */
-    color: black; /* Cor do texto no rodapé */
-    font-weight: bold; /* Deixa o texto em negrito */
-    font-size: 12px; /* Tamanho da fonte menor para o rodapé */
-}
 
 
 /* Estilo para centralizar a lista */
@@ -146,6 +139,7 @@ nav ul li a {
     list-style: none;
     color: aliceblue;
     font-size: 30px;
+
 }
 h2{
     font-size: 30px;
@@ -154,4 +148,29 @@ h2{
 img{
     width: 150px;
     margin: 50px;
+}
+footer {
+    background-color: white; /* Cor de fundo do rodapé */
+    padding: 5px; /* Espaçamento interno menor no rodapé */
+    color: black; /* Cor do texto no rodapé */
+    font-weight: bold; /* Deixa o texto em negrito */
+    height: 85px;
+  
+    font-size: 12px; /* Tamanho da fonte menor para o rodapé */
+}
+footer p{
+    font-size: 20px;
+ 
+}
+p{
+    font-size: 25px;
+    text-shadow: 10 10 10 ;
+    word-spacing: 10%;
+    margin: 30px;
+}
+.menu-desktop li::before{
+content: none
+}
+.gradient-background{
+background: linear-gradient(to bottom, blue, white );
 }
